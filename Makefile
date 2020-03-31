@@ -1,5 +1,5 @@
 package_name=wordpress/wordpress
-versions=$(shell curl "https://api.github.com/repos/WordPress/WordPress/tags" | jq -r ".[] | .name")
+versions=$(shell curl "https://api.github.com/repos/WordPress/WordPress/tags?per_page=100" | jq -r ".[] | .name")
 
 docs/packages.json:
 	@mkdir -p $(@D)
