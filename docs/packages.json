@@ -1,6 +1,23 @@
 {
   "packages": {
     "wordpress/wordpress": {
+      "7.0": {
+      	"name": "wordpress/wordpress",
+        "type": "webroot",
+        "version": "7.0",
+        "dist": {
+          "url": "https://wordpress.org/wordpress-7.0-no-content.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url" : "https://github.com/WordPress/WordPress",
+          "type": "git",
+          "reference": "7.0"
+        },
+        "require": {
+          "fancyguy/webroot-installer": "^1.0"
+        }
+      },
       "6.9.4": {
       	"name": "wordpress/wordpress",
         "type": "webroot",
@@ -698,6 +715,23 @@
           "fancyguy/webroot-installer": "^1.0"
         }
       },
+      "6.3.8": {
+      	"name": "wordpress/wordpress",
+        "type": "webroot",
+        "version": "6.3.8",
+        "dist": {
+          "url": "https://wordpress.org/wordpress-6.3.8-no-content.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url" : "https://github.com/WordPress/WordPress",
+          "type": "git",
+          "reference": "6.3.8"
+        },
+        "require": {
+          "fancyguy/webroot-installer": "^1.0"
+        }
+      },
       "6.3.7": {
       	"name": "wordpress/wordpress",
         "type": "webroot",
@@ -829,6 +863,23 @@
           "url" : "https://github.com/WordPress/WordPress",
           "type": "git",
           "reference": "6.3"
+        },
+        "require": {
+          "fancyguy/webroot-installer": "^1.0"
+        }
+      },
+      "6.2.9": {
+      	"name": "wordpress/wordpress",
+        "type": "webroot",
+        "version": "6.2.9",
+        "dist": {
+          "url": "https://wordpress.org/wordpress-6.2.9-no-content.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url" : "https://github.com/WordPress/WordPress",
+          "type": "git",
+          "reference": "6.2.9"
         },
         "require": {
           "fancyguy/webroot-installer": "^1.0"
@@ -982,6 +1033,23 @@
           "url" : "https://github.com/WordPress/WordPress",
           "type": "git",
           "reference": "6.2"
+        },
+        "require": {
+          "fancyguy/webroot-installer": "^1.0"
+        }
+      },
+      "6.1.10": {
+      	"name": "wordpress/wordpress",
+        "type": "webroot",
+        "version": "6.1.10",
+        "dist": {
+          "url": "https://wordpress.org/wordpress-6.1.10-no-content.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url" : "https://github.com/WordPress/WordPress",
+          "type": "git",
+          "reference": "6.1.10"
         },
         "require": {
           "fancyguy/webroot-installer": "^1.0"
@@ -1152,6 +1220,23 @@
           "url" : "https://github.com/WordPress/WordPress",
           "type": "git",
           "reference": "6.1"
+        },
+        "require": {
+          "fancyguy/webroot-installer": "^1.0"
+        }
+      },
+      "6.0.12": {
+      	"name": "wordpress/wordpress",
+        "type": "webroot",
+        "version": "6.0.12",
+        "dist": {
+          "url": "https://wordpress.org/wordpress-6.0.12-no-content.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url" : "https://github.com/WordPress/WordPress",
+          "type": "git",
+          "reference": "6.0.12"
         },
         "require": {
           "fancyguy/webroot-installer": "^1.0"
@@ -1356,6 +1441,23 @@
           "url" : "https://github.com/WordPress/WordPress",
           "type": "git",
           "reference": "6.0"
+        },
+        "require": {
+          "fancyguy/webroot-installer": "^1.0"
+        }
+      },
+      "5.9.13": {
+      	"name": "wordpress/wordpress",
+        "type": "webroot",
+        "version": "5.9.13",
+        "dist": {
+          "url": "https://wordpress.org/wordpress-5.9.13-no-content.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url" : "https://github.com/WordPress/WordPress",
+          "type": "git",
+          "reference": "5.9.13"
         },
         "require": {
           "fancyguy/webroot-installer": "^1.0"
@@ -1582,120 +1684,18 @@
           "fancyguy/webroot-installer": "^1.0"
         }
       },
-      "5.8.12": {
+      "5.8.13": {
       	"name": "wordpress/wordpress",
         "type": "webroot",
-        "version": "5.8.12",
+        "version": "5.8.13",
         "dist": {
-          "url": "https://wordpress.org/wordpress-5.8.12-no-content.zip",
+          "url": "https://wordpress.org/wordpress-5.8.13-no-content.zip",
           "type": "zip"
         },
         "source": {
           "url" : "https://github.com/WordPress/WordPress",
           "type": "git",
-          "reference": "5.8.12"
-        },
-        "require": {
-          "fancyguy/webroot-installer": "^1.0"
-        }
-      },
-      "5.8.11": {
-      	"name": "wordpress/wordpress",
-        "type": "webroot",
-        "version": "5.8.11",
-        "dist": {
-          "url": "https://wordpress.org/wordpress-5.8.11-no-content.zip",
-          "type": "zip"
-        },
-        "source": {
-          "url" : "https://github.com/WordPress/WordPress",
-          "type": "git",
-          "reference": "5.8.11"
-        },
-        "require": {
-          "fancyguy/webroot-installer": "^1.0"
-        }
-      },
-      "5.8.10": {
-      	"name": "wordpress/wordpress",
-        "type": "webroot",
-        "version": "5.8.10",
-        "dist": {
-          "url": "https://wordpress.org/wordpress-5.8.10-no-content.zip",
-          "type": "zip"
-        },
-        "source": {
-          "url" : "https://github.com/WordPress/WordPress",
-          "type": "git",
-          "reference": "5.8.10"
-        },
-        "require": {
-          "fancyguy/webroot-installer": "^1.0"
-        }
-      },
-      "5.8.9": {
-      	"name": "wordpress/wordpress",
-        "type": "webroot",
-        "version": "5.8.9",
-        "dist": {
-          "url": "https://wordpress.org/wordpress-5.8.9-no-content.zip",
-          "type": "zip"
-        },
-        "source": {
-          "url" : "https://github.com/WordPress/WordPress",
-          "type": "git",
-          "reference": "5.8.9"
-        },
-        "require": {
-          "fancyguy/webroot-installer": "^1.0"
-        }
-      },
-      "5.8.8": {
-      	"name": "wordpress/wordpress",
-        "type": "webroot",
-        "version": "5.8.8",
-        "dist": {
-          "url": "https://wordpress.org/wordpress-5.8.8-no-content.zip",
-          "type": "zip"
-        },
-        "source": {
-          "url" : "https://github.com/WordPress/WordPress",
-          "type": "git",
-          "reference": "5.8.8"
-        },
-        "require": {
-          "fancyguy/webroot-installer": "^1.0"
-        }
-      },
-      "5.8.7": {
-      	"name": "wordpress/wordpress",
-        "type": "webroot",
-        "version": "5.8.7",
-        "dist": {
-          "url": "https://wordpress.org/wordpress-5.8.7-no-content.zip",
-          "type": "zip"
-        },
-        "source": {
-          "url" : "https://github.com/WordPress/WordPress",
-          "type": "git",
-          "reference": "5.8.7"
-        },
-        "require": {
-          "fancyguy/webroot-installer": "^1.0"
-        }
-      },
-      "5.8.6": {
-      	"name": "wordpress/wordpress",
-        "type": "webroot",
-        "version": "5.8.6",
-        "dist": {
-          "url": "https://wordpress.org/wordpress-5.8.6-no-content.zip",
-          "type": "zip"
-        },
-        "source": {
-          "url" : "https://github.com/WordPress/WordPress",
-          "type": "git",
-          "reference": "5.8.6"
+          "reference": "5.8.13"
         },
         "require": {
           "fancyguy/webroot-installer": "^1.0"
